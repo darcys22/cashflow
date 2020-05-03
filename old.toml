@@ -1,0 +1,29 @@
+balance = 3631.49
+balanceDate = 2020-05-03T07:32:00-08:00 # First class dates
+
+[transactions]
+
+  [transactions.wage]
+  date = 2020-05-28T07:32:00-08:00 
+  amount = 13800.00
+  recurring = "monthly"
+
+  [transactions.rent]
+  date = 2020-05-28T07:32:00-08:00
+  amount = -551.00
+  recurring = "fortnightly"
+
+  [transactions.loan]
+  date = 2020-05-29T07:32:00-08:00
+  amount = -285.75
+  recurring = "fortnightly"
+  
+  [transactions.emergency]
+  date = 2020-05-29T07:32:00-08:00
+  amount = -50.00
+  recurring = "monthly"
+
+  [transactions.discretionary]
+  date = 2020-05-30T07:32:00-08:00
+  amount = -300.00
+  recurring = "weekly"

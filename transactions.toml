@@ -1,0 +1,39 @@
+balance = 3631.49
+balanceDate = 2020-05-03T07:32:00-08:00 # First class dates
+
+[transactions]
+
+  [transactions.wage]
+  date = 2020-04-15T07:32:00-08:00 
+  amount = 2947.67
+  recurring = "monthly"
+
+  [transactions.rent]
+  date = 2020-04-27T07:32:00-08:00
+  amount = -551.00
+  recurring = "fortnightly"
+  
+  [transactions.joint]
+  date = 2020-05-11T07:32:00-08:00
+  amount = -260.00
+  recurring = "fortnightly"
+
+  [transactions.loan]
+  date = 2020-05-12T07:32:00-08:00
+  amount = -75.00
+  recurring = "fortnightly"
+  
+  [transactions.discretionary]
+  date = 2020-05-04T07:32:00-08:00
+  amount = -200.00
+  recurring = "weekly"
+
+  [transactions.insurance]
+  date = 2020-04-01T07:32:00-08:00
+  amount = -34.20
+  recurring = "monthly"
+
+  [transactions.ambulance]
+  date = 2020-03-18T07:32:00-08:00
+  amount = -12.09
+  recurring = "quarterly"
